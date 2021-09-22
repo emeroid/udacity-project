@@ -12,9 +12,9 @@ class BooksApp extends React.Component {
       <div className="app">
         <BrowserRouter>
            <Switch>
-                <Route exact path="/" component={HomePage}/>
-                <Route path="/search" component={SearchPage}/>
-            </Switch>
+              <Route exact path="/" component={HomePage}/>
+              <Route path="/search" component={SearchPage}/>
+           </Switch>
         </BrowserRouter>
       </div>
       
